@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "lib": ["es6"],
+    "strict": true,
+    "outDir" : "output_js",
+    "types" : ["mocha", "node"]
+  },
+  "exclude": [
+    "node_modules/*"
+  ]
+}
