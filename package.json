@@ -9,8 +9,7 @@
     "babel-version": "babel --version",
     "start": "SET NODE_ENV=producation pm2 start dist",
     "prestart": "npm run -s build",
-    "lint": "eslint src",
-    "test": "tsc \"api_tests\"specs & ./node_modules/mocha/bin/mocha api_tests/specs/crud_user.spec.js"
+    "lint": "eslint src"
   },
   "eslintConfig": {
     "parserOptions": {
